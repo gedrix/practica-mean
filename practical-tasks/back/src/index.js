@@ -6,9 +6,8 @@ const cors = require('cors');
 require('./db');
 
 //middlewares
-
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
 
 //route
 
